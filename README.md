@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @fulankun1412
 - 👀 I’m interested in Artificial Intelligence Development and deployment 
-- 🌱 I’m currently learning Tensorflow and PyTorch
+- 🌱 I’m currently learning and develop skills in Data Engineering, Data Modeling and Software Engineering
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
