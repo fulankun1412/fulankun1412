@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @fulankun1412
 - 👀 I’m interested in Artificial Intelligence Development and deployment 
 - 🌱 I’m currently learning and develop skills in Data Engineering, Data Modeling and Software Engineering
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 💞️ I’m looking to collaborate on ML/DL Development
+- 📫 How to reach me, Email: afkaar2012@live.com
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fulankun1412)](https://github.com/anuraghazra/github-readme-stats)
 
