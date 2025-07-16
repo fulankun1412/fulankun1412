@@ -3,6 +3,8 @@
 - 🌱 I’m currently learning and develop skills in Data Engineering, Data Modeling and Software Engineering
 - 💞️ I’m looking to collaborate on ML/DL Development
 - 📫 How to reach me, Email: afkaar2012@live.com
+  
+[![CodeTime Badge](https://img.shields.io/endpoint?style=social&color=222&url=https%3A%2F%2Fapi.codetime.dev%2Fv3%2Fusers%2Fshield%3Fuid%3D17065)](https://codetime.dev)
 
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fulankun1412&theme=dark&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
