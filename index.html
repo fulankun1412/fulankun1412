@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanang Afkaar's Machine Learning Project Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./docs/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#home">
+                <i class="bi bi-house-fill"></i> Lanang Afkaar's ML Portfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home" data-page="home">
+                            <i class="bi bi-house-fill"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#computer-vision" data-page="computer-vision">
+                            <i class="bi bi-eye-fill"></i> Computer Vision
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#recommender" data-page="recommender">
+                            <i class="bi bi-cart-fill"></i> Recommender & Tabular
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#llm" data-page="llm">
+                            <i class="bi bi-globe"></i> Large Language Model
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cv-resume" data-page="cv-resume">
+                            <i class="bi bi-file-earmark-text-fill"></i> CV & Resume
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <div id="main-content" class="container-fluid">
+        <!-- Home Page -->
+        <div id="home-page" class="page-content active">
+            <div class="container py-5">
+                <h1 class="display-4 mb-4">Welcome to my Machine Learning Project Portfolio</h1>
+                <hr class="mb-5">
+                
+                <div class="row">
+                    <div class="col-lg-8 col-md-7">
+                        <section class="mb-5">
+                            <h2 class="mb-3">About me</h2>
+                            <div class="text-justify">
+                                <p>An enthusiastic person, self-motivated, reliable, responsible, and adaptable to all challenging situations. 
+                                Able to work well both in a team environment as well as using my own initiative. Eager to learn new things to improve, experience, and deepen my knowledge. 
+                                Deeply interested in developing skills in machine learning, DevOps, IT management and Project Management. 
+                                Experience with building recommendation systems, computer vision, MLOps, and analytics in previous projects. 
+                                With built-up experience, skills, and team collaboration in Data Science, ready for creating an impact on any development for data modeling.</p>
+                            </div>
+                        </section>
+
+                        <section>
+                            <h2 class="mb-3">How to reach me</h2>
+                            <div class="text-justify">
+                                <p>You can reach me through these following links or just reach me through phone. Guaranteed ASAP will text you back!</p>
+                            </div>
+                            <ul class="contact-list">
+                                <li><i class="bi bi-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/lanangafkaar/" target="_blank">https://www.linkedin.com/in/lanangafkaar/</a></li>
+                                <li><i class="bi bi-envelope-fill"></i> Email me:
+                                    <ul>
+                                        <li><a href="mailto:afkaar2012@live.com">afkaar2012@live.com</a></li>
+                                        <li><a href="mailto:lanangafkaar@gmail.com">lanangafkaar@gmail.com</a></li>
+                                    </ul>
+                                </li>
+                                <li><i class="bi bi-github"></i> GitHub: <a href="https://github.com/fulankun1412" target="_blank">https://github.com/fulankun1412</a></li>
+                                <li><i class="bi bi-whatsapp"></i> Whatsapp/Phone: <a href="tel:+6281290548465">(+62)81290548465</a></li>
+                            </ul>
+                        </section>
+                    </div>
+
+                    <div class="col-lg-4 col-md-5">
+                        <div class="text-center">
+                            <img src="https://static.streamlit.io/examples/cat.jpg" alt="Profile" class="img-fluid rounded shadow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Computer Vision Page -->
+        <div id="computer-vision-page" class="page-content">
+            <div class="container py-5">
+                <h1 class="display-5 mb-3">Projects: Computer Vision</h1>
+                <p class="lead mb-4"><em>Computer vision is a field of artificial intelligence (AI) that enables computers and systems to derive meaningful information from digital images, 
+                videos and other visual inputs and take actions or make recommendations based on that information.</em></p>
+
+                <!-- Tabs -->
+                <ul class="nav nav-tabs mb-4" id="cvTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="covid-tab" data-bs-toggle="tab" data-bs-target="#covid" type="button">
+                            Covid-19 Social Distance
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="mosibit-tab" data-bs-toggle="tab" data-bs-target="#mosibit" type="button">
+                            Sign Language Recognition (MOSIBIT)
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="transactions-tab" data-bs-toggle="tab" data-bs-target="#transactions" type="button">
+                            Transactions Information Extraction
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="ponds-tab" data-bs-toggle="tab" data-bs-target="#ponds" type="button">
+                            Ponds Data Table Extraction
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="cvTabsContent">
+                    <!-- COVID-19 Tab -->
+                    <div class="tab-pane fade show active" id="covid" role="tabpanel">
+                        <h3 class="mb-3">A computer vision-based object detection and counting for COVID-19 protocol compliance: a case study of Jakarta</h3>
+                        
+                        <h4 class="mt-4 mb-3">About the project</h4>
+                        <p class="text-justify">
+                        Paper discusses the importance of vehicle detection and counting systems, mainly using Closed-Circuit Television (CCTV) installations in Jakarta for 
+                        public monitoring. These CCTVs aid in identifying congestion points, ensuring security, and monitoring activities. However, the primary focus now is 
+                        on controlling the spread of COVID-19. The government implemented large-scale social restrictions, transitioning to the new normal phase, which saw an 
+                        increase in reported cases. To address this, the paper proposes using AI-integrated CCTV systems to optimize surveillance and monitor compliance with 
+                        COVID-19 protocols, including mask-wearing and social distancing. This approach can effectively support the government in implementing large-scale 
+                        social restrictions (PSBB).
+                        </p>
+
+                        <h4 class="mt-4 mb-3">Solutions & Methods</h4>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <p class="text-justify">
+                                This paper reports the analysis of the proposed system for monitoring and supporting public activities in order to carry out social restrictions, specifically in 
+                                the DKI Jakarta province. The proposed systems are YOLO and MobileNet SSD as its main weight to help this detection system with 30% and 40% confidence, respectively. 
+                                The results of object counting and physical distancing are expected to be a guideline for public complaints in the future by using several CCTV locations points 
+                                with better image quality and better angles.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./docs/static/paper/jsc-paper-1.gif" alt="Business Process Illustration" class="img-fluid rounded">
+                                <p class="text-center mt-2"><small>Business Process Illustration</small></p>
+                            </div>
+                        </div>
+
+                        <p>The Object Counting method on this CCTV uses Pseudocode as follows:</p>
+                        <ul>
+                            <li>The application of Object Detection to detect everything in the video (in Object Counting, this is devoted to people only) and in this object detection, we used 40% confidence for person detection as a minimum probability to filter weak detections as we will use it in MobileNet SSD.</li>
+                            <li>Then, each detected object is given an ID to perform tracking of the object that is already in the detection.</li>
+                            <li>Given a line as a mark when the tracking object touches and crosses the line it will be marked as a calculated object</li>
+                        </ul>
+
+                        <p>Also, the Physical Distancing detection method on this CCTV uses Pseudocode as follows:</p>
+                        <ul>
+                            <li>Apply Object Detection to detect everyone (only people) in a video or image and this object detection; we used 30% confidence for person detection as a minimum probability to filter weak detections as we will use it in YOLO.</li>
+                            <li>Calculate the distances between every person that has detected.</li>
+                            <li>Based on this distance, check to see if there are two separate people less than N pixels.</li>
+                        </ul>
+
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <p>As mentioned previously, we used object tracking in Object Counting pseudocode. In this tracking, we used an algorithm called centroid tracking algorithm. The centroid tracking algorithm works, as follow:</p>
+                                <ul>
+                                    <li>We are accepting bounding box coordinates for each object in every frame (presumably by some object detector).</li>
+                                    <li>We are computing the Euclidean distance between the centroids of the input bounding boxes and the centroids of existing objects that we already have examined.</li>
+                                    <li>They are updating the tracked object centroids to their new centroid locations based on the new centroid with the smallest Euclidean distance.</li>
+                                    <li>Moreover, if necessary, marking objects as either "disappeared" or deregistering them completely.</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./docs/static/paper/jsc-paper-2.gif" alt="Centroid Tracking" class="img-fluid rounded">
+                                <p class="text-center mt-2"><small>Centroid Tracking uses Euclidean distance to find the nearest detected object as tracking.</small></p>
+                            </div>
+                        </div>
+
+                        <h4 class="mt-4 mb-3">Result & Analysis</h4>
+                        <h5 class="mb-3">Object Counting: Human Counting</h5>
+                        <p class="text-justify">
+                        We can see the number of participants from the CFD (Car Free Day) on 21 May 2020, taken from the CCTV on the main door of Gelora FX. 
+                        CCTV data is taken every 10 minutes; dark red data indicates that the data is the highest, and what if the yellow data shows the least data. 
+                        Data retrieval is taken from 07:00 a.m to 10:00 a.m. The data showed that there is an increase in CFD participants at 08:00 a.m to the top 
+                        point at 08:40 a.m.
+                        </p>
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <img src="./docs/static/paper/jsc-paper-3.gif" alt="Object Counting" class="img-fluid rounded">
+                                <p class="text-center mt-2"><small>Object Counting result process.</small></p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./docs/static/paper/jsc-paper-4.gif" alt="People counting chart" class="img-fluid rounded">
+                                <p class="text-center mt-2"><small>People counting chart every 10 minutes.</small></p>
+                            </div>
+                        </div>
+
+                        <h5 class="mb-3">Large-Scale Social Restriction Violation Detection</h5>
+                        <p class="text-justify">
+                        Large-scale social restriction detection shows the number of offenders Physical Distancing from participants Car Free Day (CFD) that have been 
+                        monitored through CCTV Pintu Gelora near FX. In this data, the offenders Physical Distancing burst at 07:10 am until 07: 20 am and then decreased 
+                        violators from 07:30 am until 10:00 am. Based on these data, the highest peak rate was seven violations. Why do these hours look crowded? 
+                        According to CCTV monitoring and field monitoring that at that time was the peak where a large number of participants had begun to carry out 
+                        sports or any activities at the car-free day event at that time. Therefore, it could increase the high transmission rate of the COVID-19 virus 
+                        in public spaces. Meanwhile, these data show that the lowest average is one violation and that only when CFD will end.
+                        </p>
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <img src="./docs/static/paper/jsc-paper-5.gif" alt="Social restriction detection" class="img-fluid rounded">
+                                <p class="text-center mt-2"><small>Large-scale social restriction detection result process.</small></p>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="./docs/static/paper/jsc-paper-6.gif" alt="Violation graph" class="img-fluid rounded">
+                                <p class="text-center mt-2"><small>Graph of the average violation of large-scale social restrictions.</small></p>
+                            </div>
+                        </div>
+
+                        <h4 class="mt-4 mb-3">Further Reading the Paper</h4>
+                        <p>You can find our paper to this link:</p>
+                        <ul>
+                            <li><a href="https://ieeexplore.ieee.org/document/9307594" target="_blank">https://ieeexplore.ieee.org/document/9307594</a></li>
+                        </ul>
+
+                        <h4 class="mt-4 mb-3">Authors</h4>
+                        <ul>
+                            <li>Muhammad Lanang Afkaar Ar || Computer Engineering, School of Electrical Engineering, Telkom University, Bandung, Indonesia</li>
+                            <li>Sulthan Muzakki Adytia S || Computer Engineering, School of Electrical Engineering, Telkom University, Bandung, Indonesia</li>
+                            <li>Yudhistira Nugraha || Department of Communication, Informatics, and Statistics, Jakarta Smart City, Jakarta, Indonesia || School of Computing, Telkom University, Bandung, Indonesia</li>
+                            <li>Farizah Rizka R || Department of Communication, Informatics, and Statistics, Jakarta Smart City, Jakarta, Indonesia</li>
+                            <li>Andy Ernesto || Department of Communication, Informatics, and Statistics, Jakarta Smart City, Jakarta, Indonesia</li>
+                            <li>Juan Intan Kanggrawan || Department of Communication, Informatics, and Statistics, Jakarta Smart City, Jakarta, Indonesia</li>
+                            <li>Alex L. Suherman || Directorate of Research and Community Service, Telkom University, Bandung, Indonesia</li>
+                        </ul>
+                    </div>
+
+                    <!-- MOSIBIT Tab -->
+                    <div class="tab-pane fade" id="mosibit" role="tabpanel">
+                        <h3 class="mb-3">Sign Language Recognition (MOSIBIT: Mobile Sistem Isyarat Bahasa Indonesia Translation)</h3>
+                        
+                        <h4 class="mt-4 mb-3">About the project</h4>
+                        <p class="text-justify">
+                        A mobile application to bridge communications between people with deafness and normal people who are unfamiliar with sign language. Introducing a revolutionary mobile app that fosters seamless 
+                        communication between the deaf and those unfamiliar with sign language. Bridging the gap, it empowers meaningful interactions through intuitive interfaces and real-time translations, fostering inclusivity and understanding.
+                        </p>
+
+                        <h4 class="mt-4 mb-3">Solutions & Methods</h4>
+                        <p>The work of this application is divided into three modules so that it can run as we made it:</p>
+                        <ul>
+                            <li>Machine Learning Training and Prediction Modeling. <em>(Combining Mediapipe and CNN for the prediction)</em></li>
+                            <li>Model serving in the Cloud and API call for Mobile. <em>(Deployed using Compute Instance of Google Cloud Platform)</em></li>
+                            <li>Mobile Apps as client app where will send and received prediction from served model in cloud.</li>
+                        </ul>
+
+                        <h4 class="mt-4 mb-3">Gallery</h4>
+                        <div class="row mb-4">
+                            <div class="col-md-4">
+                                <img src="./docs/static/mosibit/1.png" alt="MOSIBIT 1" class="img-fluid rounded">
+                                <p class="text-center mt-2"><small>Initial Prototyping/PoC</small></p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./docs/static/mosibit/2.jpeg" alt="MOSIBIT 2" class="img-fluid rounded">
+                                <p class="text-center mt-2"><small>Initial Prototyping/PoC</small></p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="./docs/static/mosibit/3.png" alt="MOSIBIT 3" class="img-fluid rounded">
+                                <p class="text-center mt-2"><small>Initial Prototyping/PoC</small></p>
+                            </div>
+                        </div>
+
+                        <h4 class="mt-4 mb-3">Further Reading Repository</h4>
+                        <p>You can find our project to this link:</p>
+                        <ul>
+                            <li><a href="https://github.com/MOSIBIT" target="_blank">https://github.com/MOSIBIT</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Transactions Tab -->
+                    <div class="tab-pane fade" id="transactions" role="tabpanel">
+                        <h3 class="mb-3">Transactions Information Extraction</h3>
+                        <h2 class="text-center mt-5">🛠️ UNDER CONSTRUCTIONS 🛠️</h2>
+                    </div>
+
+                    <!-- Ponds Tab -->
+                    <div class="tab-pane fade" id="ponds" role="tabpanel">
+                        <h3 class="mb-3">Ponds Data Table Extraction</h3>
+                        <h2 class="text-center mt-5">🛠️ UNDER CONSTRUCTIONS 🛠️</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recommender & Tabular Page -->
+        <div id="recommender-page" class="page-content">
+            <div class="container py-5">
+                <h1 class="display-4 text-center">🛠️ UNDER CONSTRUCTIONS 🛠️</h1>
+            </div>
+        </div>
+
+        <!-- Large Language Model Page -->
+        <div id="llm-page" class="page-content">
+            <div class="container py-5">
+                <h1 class="display-4 text-center">🛠️ UNDER CONSTRUCTIONS 🛠️</h1>
+            </div>
+        </div>
+
+        <!-- CV & Resume Page -->
+        <div id="cv-resume-page" class="page-content">
+            <div class="container py-5">
+                <h2 class="mb-4">Curriculum Vitae & Resume Viewer</h2>
+                
+                <ul class="nav nav-tabs mb-4" id="cvResumeTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="cv-tab" data-bs-toggle="tab" data-bs-target="#cv" type="button">
+                            Curriculum Vitae
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="resume-tab" data-bs-toggle="tab" data-bs-target="#resume" type="button">
+                            Resume
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="certificates-tab" data-bs-toggle="tab" data-bs-target="#certificates" type="button">
+                            Certificates
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="cvResumeTabsContent">
+                    <div class="tab-pane fade show active" id="cv" role="tabpanel">
+                        <div class="pdf-container">
+                            <iframe src="./docs/static/cv.pdf" width="100%" height="800px" style="border: none;"></iframe>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="resume" role="tabpanel">
+                        <div class="pdf-container">
+                            <iframe src="./docs/static/resume.pdf" width="100%" height="800px" style="border: none;"></iframe>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="certificates" role="tabpanel">
+                        <div class="pdf-container">
+                            <iframe src="./docs/static/certificates.pdf" width="100%" height="800px" style="border: none;"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+        <div class="sidebar-content">
+            <div class="sidebar-header">
+                <h5>⬆️ Project Navigation ⬆️</h5>
+            </div>
+            <div class="sidebar-footer">
+                <h6>Lanang Afkaar's Machine Learning Project</h6>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2026 Lanang Afkaar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./docs/js/script.js"></script>
+</body>
+</html>
