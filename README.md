@@ -1,6 +1,7 @@
 - 👋 Hi, I’m @fulankun1412
 - 👀 I’m interested in Artificial Intelligence Development and deployment 
-- 🌱 I’m currently learning and develop skills in Data Engineering, Data Modeling and Software Engineering
+- 🌱 I love to learning and developing skills in Data Engineering, Data Modeling, and Software Engineering.
+- 🛰️ Specializing in Computer Vision, Remote Sensing, LLM, and AI automation.
 - 💞️ I’m looking to collaborate on ML/DL Development
 - 📫 How to reach me, Email: afkaar2012@live.com
   
